@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "packages": [{
+    "name": "EslintAutoFix",
+    "description": "A sublime plugin.",
+    "author": "matianming",
+    "homepage": "https://github.com/a324539017",
+    "last_modified": "2016-10-21",
+    "platforms": {
+      "*": [{
+        "version": "1.0.0",
+        "url": "https://github.com/a324539017/eslintAutoFix.git"
+      }]
+    }
+  }]
+}
