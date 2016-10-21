@@ -1,6 +1,4 @@
-[
-    {
-        "caption": "eslint_auto_fix",
-        "command": "eslint_auto_fix"
-    }
-]
+[{
+	"caption": "eslint_auto_fix",
+	"command": "eslint_auto_fix"
+}]

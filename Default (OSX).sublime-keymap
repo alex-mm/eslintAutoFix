@@ -1,8 +1,6 @@
-[
-    {
-        "keys": [
-            "super+shift+,"
-        ], 
-        "command": "eslint_auto_fix"
-    }
-]
+[{
+	"keys": [
+		"super+shift+,"
+	],
+	"command": "eslint_auto_fix"
+}]
