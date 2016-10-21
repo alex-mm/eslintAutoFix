@@ -1,6 +1,6 @@
 import sublime, sublime_plugin
 
-SETTINGS_KEY = 'EslintAutoFix.sublime-settings'
+SETTINGS_KEY = 'ESLintAutoFix.sublime-settings'
 DEFAULT_ESLINT_PATH = ''
 DEFAULT_SHOW_PANEL = True
 

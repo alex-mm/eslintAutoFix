@@ -1,4 +1,4 @@
-# eslintAutoFix
+# ESLintAutoFix
 
 A sublime plugin.
 
@@ -20,7 +20,7 @@ e.g.
 
 ```
 {
-  "eslint_path": "/Users/matianming/nvm/versions/node/v4.2.4/bin/",
+  "eslint_path": "/usr/local/bin/",
   "show_panel": true
 }
 
