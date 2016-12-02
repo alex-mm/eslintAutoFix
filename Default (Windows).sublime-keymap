@@ -1,0 +1,6 @@
+[{
+    "keys": [
+        "ctrl+shift+,"
+    ],
+    "command": "eslint_auto_fix"
+}]

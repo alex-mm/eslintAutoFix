@@ -14,7 +14,7 @@ Pref = Preferences()
 def plugin_loaded():
   settings = sublime.load_settings(SETTINGS_KEY)
   Pref.load(settings)
-  settings.add_on_change('reload', lambda: Pref.load(settings))
+  #settings.add_on_change('reload', lambda: Pref.load(settings))
 
 class Eslint_auto_fixCommand(sublime_plugin.WindowCommand):
 	def run(self):
