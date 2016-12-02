@@ -1,0 +1,7 @@
+[
+  {
+    "id": "eslint_auto_fix",
+    "caption": "ESLintAutoFix",
+    "command": "eslint_auto_fix"
+  }
+]
