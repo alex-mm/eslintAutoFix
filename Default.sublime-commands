@@ -1,4 +1,4 @@
 [{
-	"caption": "eslint_auto_fix",
+	"caption": "eslintAutoFix",
 	"command": "eslint_auto_fix"
 }]
