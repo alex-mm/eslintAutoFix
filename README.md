@@ -1,6 +1,8 @@
 # ESLintAutoFix
 
-A sublime plugin.
+A sublime plugin. 
+
+Use global eslint command.
 
 ## usage
 
