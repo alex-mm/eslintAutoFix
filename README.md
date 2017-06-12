@@ -2,9 +2,7 @@
 
 ESLint Auto fix with global eslint command.
 
-## usage
-
-You should modify the setting first before use.
+__You should modify the setting first before use.__
 
 ## setting
 
@@ -26,10 +24,15 @@ e.g.
 
 ```
 
+## usage
+
+### keymap
+* `super+shift+,` mac
+* `ctrl+shift+,` window or linux
+
+### right menu
+* `ESLintAutoFix`
+
 ## command
 
 ### `eslint_auto_fix`
-
-## keymap
-
-### `super+shift+,`
