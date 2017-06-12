@@ -1,8 +1,11 @@
 import sublime, sublime_plugin
+import platform
 
 SETTINGS_KEY = 'ESLintAutoFix.sublime-settings'
 DEFAULT_ESLINT_PATH = ''
 DEFAULT_SHOW_PANEL = True
+
+IS_WINDOWS = platform.system() == 'Windows'
 
 class Preferences:
   def load(self, settings):
@@ -26,7 +29,8 @@ class Eslint_auto_fixCommand(sublime_plugin.WindowCommand):
 		    '--no-ignore',
 		    fileName
 		  ],
-		  'path': Pref.eslint_path
+		  'path': Pref.eslint_path,
+		  'shell': IS_WINDOWS
 		}
 		self.window.run_command('exec', args)
 		if not Pref.show_panel:

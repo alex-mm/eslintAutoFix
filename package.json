@@ -1,14 +1,14 @@
 {
-  "schema_version": "1.0.2",
+  "schema_version": "1.0.3",
   "packages": [{
     "name": "ESLintAutoFix",
-    "description": "A sublime plugin.",
-    "author": "matianming",
+    "description": "ESLint Auto fix with global eslint command.",
+    "author": "alex.mm",
     "homepage": "https://github.com/alex-mm",
-    "last_modified": "2016-12-3",
+    "last_modified": "2017-6-12",
     "platforms": {
       "*": [{
-        "version": "1.0.2",
+        "version": "1.0.3",
         "url": "https://github.com/alex-mm/eslintAutoFix.git"
       }]
     }
